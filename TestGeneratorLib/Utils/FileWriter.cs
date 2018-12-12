@@ -1,25 +1,20 @@
 using System;
+
+using System.Collections.Generic;
+
 using System.IO;
+
+using System.Text;
+
 using System.Threading.Tasks;
 
 namespace TestGeneratorLib.Utils
 {
     public class FileWriter
     {
-        public async Task<string> ReadAsync(string filepath)
+        public async Task WriteAsync(List<>)
         {
-            try
-            {
-                using (StreamReader streamReader = new StreamReader(filepath))
-                {
-                    return await streamReader.ReadToEndAsync();
-                }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Something went terribly wrong, the file could not be read.");
-                return ""; //wut?
-            }
+            
         }
     }
 }
