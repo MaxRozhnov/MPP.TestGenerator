@@ -25,9 +25,9 @@
         <e p="TestGenerator.cs" t="Include" />
         <e p="TestGeneratorLib.csproj" t="IncludeRecursive" />
         <e p="Utils" t="Include">
-          <e p="ClassModel.cs" t="Include" />
           <e p="FileReader.cs" t="Include" />
           <e p="FileWriter.cs" t="Include" />
+          <e p="TestClassModel.cs" t="Include" />
         </e>
       </e>
     </e>

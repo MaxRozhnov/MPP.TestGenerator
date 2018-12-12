@@ -2,95 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fa4e18b-90f6-4d81-a9ab-3fc92dfe4cc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestGeneratorLib/Utils/ClassModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab Task 4/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab Task 4/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab Task 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab Task 4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGeneratorLib/TestGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/TestGenerator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestGeneratorLib/TestGeneratorLib.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/TestGeneratorLib.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGeneratorLib/Utils/FileReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/Utils/FileReader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestGeneratorLib/Utils/FileWriter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/Utils/FileWriter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGeneratorLib/Utils/TestClassModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/Utils/TestClassModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestGeneratorLib/obj/Debug/TestGeneratorLib.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/obj/Debug/TestGeneratorLib.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestGeneratorLib/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/packages.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Analyzers.2.6.1/.signature.p7s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Analyzers.2.6.1/Microsoft.CodeAnalysis.Analyzers.2.6.1.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Analyzers.2.6.1/ThirdPartyNotices.rtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Analyzers.2.6.1/analyzers/dotnet/vb/Microsoft.CodeAnalysis.Analyzers.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Analyzers.2.6.1/analyzers/dotnet/vb/Microsoft.CodeAnalysis.VisualBasic.Analyzers.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Analyzers.2.6.1/tools/install.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Analyzers.2.6.1/tools/uninstall.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.CSharp.2.10.0/.signature.p7s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.CSharp.2.10.0/Microsoft.CodeAnalysis.CSharp.2.10.0.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.CSharp.2.10.0/lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.CSharp.2.10.0/lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.CSharp.2.10.0/lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.CSharp.2.10.0/lib/netstandard1.3/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.CSharp.2.10.0/lib/netstandard1.3/de/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.CSharp.2.10.0/lib/netstandard1.3/es/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.CSharp.2.10.0/lib/netstandard1.3/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.CSharp.2.10.0/lib/netstandard1.3/it/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.CSharp.2.10.0/lib/netstandard1.3/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.CSharp.2.10.0/lib/netstandard1.3/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.CSharp.2.10.0/lib/netstandard1.3/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.CSharp.2.10.0/lib/netstandard1.3/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.CSharp.2.10.0/lib/netstandard1.3/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.CSharp.2.10.0/lib/netstandard1.3/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.CSharp.2.10.0/lib/netstandard1.3/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.CSharp.2.10.0/lib/netstandard1.3/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Common.2.10.0/.signature.p7s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Common.2.10.0/Microsoft.CodeAnalysis.Common.2.10.0.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Common.2.10.0/lib/netstandard1.3/Microsoft.CodeAnalysis.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Common.2.10.0/lib/netstandard1.3/Microsoft.CodeAnalysis.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Common.2.10.0/lib/netstandard1.3/Microsoft.CodeAnalysis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Common.2.10.0/lib/netstandard1.3/cs/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Common.2.10.0/lib/netstandard1.3/de/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Common.2.10.0/lib/netstandard1.3/es/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Common.2.10.0/lib/netstandard1.3/fr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Common.2.10.0/lib/netstandard1.3/it/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Common.2.10.0/lib/netstandard1.3/ja/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Common.2.10.0/lib/netstandard1.3/ko/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Common.2.10.0/lib/netstandard1.3/pl/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Common.2.10.0/lib/netstandard1.3/pt-BR/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Common.2.10.0/lib/netstandard1.3/ru/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Common.2.10.0/lib/netstandard1.3/tr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Common.2.10.0/lib/netstandard1.3/zh-Hans/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Common.2.10.0/lib/netstandard1.3/zh-Hant/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/.signature.p7s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/System.Text.Encoding.CodePages.4.3.0.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/ThirdPartyNotices.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/dotnet_library_license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/lib/MonoAndroid10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/lib/MonoTouch10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/lib/net46/System.Text.Encoding.CodePages.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/lib/xamarinios10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/lib/xamarinmac20/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/lib/xamarintvos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/lib/xamarinwatchos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/ref/MonoAndroid10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/ref/MonoTouch10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/ref/netstandard1.3/System.Text.Encoding.CodePages.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/ref/netstandard1.3/System.Text.Encoding.CodePages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/ref/netstandard1.3/de/System.Text.Encoding.CodePages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/ref/netstandard1.3/es/System.Text.Encoding.CodePages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/ref/netstandard1.3/fr/System.Text.Encoding.CodePages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/ref/netstandard1.3/it/System.Text.Encoding.CodePages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/ref/netstandard1.3/ja/System.Text.Encoding.CodePages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/ref/netstandard1.3/ko/System.Text.Encoding.CodePages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/ref/netstandard1.3/ru/System.Text.Encoding.CodePages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/ref/netstandard1.3/zh-hans/System.Text.Encoding.CodePages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/ref/netstandard1.3/zh-hant/System.Text.Encoding.CodePages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/ref/xamarinios10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/ref/xamarinmac20/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/ref/xamarintvos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/ref/xamarinwatchos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Text.Encoding.CodePages.4.3.0/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Threading.Tasks.Extensions.4.3.0/.signature.p7s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Threading.Tasks.Extensions.4.3.0/System.Threading.Tasks.Extensions.4.3.0.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Threading.Tasks.Extensions.4.3.0/ThirdPartyNotices.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Threading.Tasks.Extensions.4.3.0/dotnet_library_license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Threading.Tasks.Extensions.4.3.0/lib/netstandard1.0/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Threading.Tasks.Extensions.4.3.0/lib/netstandard1.0/System.Threading.Tasks.Extensions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Threading.Tasks.Extensions.4.3.0/lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/System.Threading.Tasks.Extensions.4.3.0/lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Analyzers.2.6.1.deleteme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Analyzers.2.6.1/analyzers/dotnet/cs/Microsoft.CodeAnalysis.Analyzers.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Analyzers.2.6.1/analyzers/dotnet/cs/Microsoft.CodeAnalysis.CSharp.Analyzers.dll" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,8 +24,10 @@
     <session id="-855686913">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -118,24 +42,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="745" />
+          <entry key="cs" value="2281" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="745" />
+          <entry key="C#" value="2281" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test App/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <marker date="1543234149702" expanded="true" signature="18:128" ph="{...}" />
                 <marker date="1543234149702" expanded="true" signature="47:126" ph="{...}" />
                 <marker date="1543234149702" expanded="true" signature="100:120" ph="{...}" />
               </folding>
@@ -143,17 +66,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestGeneratorLib/TestGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+            <state relative-caret-position="833">
+              <caret line="101" column="1" lean-forward="true" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
               <folding>
-                <marker date="1544566359957" expanded="true" signature="6:174" ph="..." />
-                <marker date="1544566359957" expanded="true" signature="202:911" ph="{...}" />
-                <marker date="1544566359957" expanded="true" signature="240:909" ph="{...}" />
-                <marker date="1544566359957" expanded="true" signature="548:798" ph="{...}" />
-                <marker date="1544566359957" expanded="true" signature="852:885" ph="{...}" />
+                <marker date="1544621290032" expanded="true" signature="6:334" ph="..." />
+                <marker date="1544621290032" expanded="true" signature="362:4361" ph="{...}" />
+                <marker date="1544621290032" expanded="true" signature="400:4359" ph="{...}" />
+                <marker date="1544621290032" expanded="true" signature="816:1180" ph="{...}" />
+                <marker date="1544621290032" expanded="true" signature="1252:1745" ph="{...}" />
+                <marker date="1544621290032" expanded="true" signature="1464:1558" ph="{...}" />
+                <marker date="1544621290032" expanded="true" signature="1599:1735" ph="/* TODO: add two more blocks with processing and writing ... */" />
+                <marker date="1544621290032" expanded="true" signature="1843:2864" ph="{...}" />
+                <marker date="1544621290032" expanded="true" signature="2381:2809" ph="{...}" />
+                <marker date="1544621290032" expanded="true" signature="2717:2795" ph="{...}" />
+                <marker date="1544621290032" expanded="true" signature="2982:3279" ph="{...}" />
+                <marker date="1544621290032" expanded="true" signature="3139:3235" ph="{...}" />
+                <marker date="1544621290032" expanded="true" signature="3363:4335" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -166,7 +97,6 @@
               <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding>
                 <marker date="1544615317602" expanded="true" signature="6:60" ph="..." />
-                <marker date="1544615317602" expanded="true" signature="94:633" ph="{...}" />
                 <marker date="1544615317602" expanded="true" signature="124:631" ph="{...}" />
                 <marker date="1544615317602" expanded="true" signature="191:616" ph="{...}" />
                 <marker date="1544615317602" expanded="true" signature="217:415" ph="{...}" />
@@ -180,27 +110,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestGeneratorLib/Utils/FileWriter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="405">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding>
-                <marker date="1544615488796" expanded="true" signature="6:117" ph="..." />
-                <marker date="1544615488796" expanded="true" signature="151:273" ph="{...}" />
-                <marker date="1544615488796" expanded="true" signature="181:271" ph="{...}" />
-                <marker date="1544615488796" expanded="true" signature="232:265" ph="{...}" />
+                <marker date="1544618584551" expanded="true" signature="6:99" ph="..." />
+                <marker date="1544618584551" expanded="true" signature="163:920" ph="{...}" />
+                <marker date="1544618584551" expanded="true" signature="264:914" ph="{...}" />
+                <marker date="1544618584551" expanded="true" signature="326:414" ph="{...}" />
+                <marker date="1544618584551" expanded="true" signature="467:904" ph="{...}" />
+                <marker date="1544618584551" expanded="true" signature="681:890" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestGeneratorLib/Utils/ClassModel.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestGeneratorLib/Utils/TestClassModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="30">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
               <folding>
-                <marker date="1544615882673" expanded="true" signature="32:305" ph="{...}" />
-                <marker date="1544615882673" expanded="true" signature="62:303" ph="{...}" />
-                <marker date="1544615882673" expanded="true" signature="211:297" ph="{...}" />
+                <marker date="1544618584511" expanded="true" signature="32:313" ph="{...}" />
+                <marker date="1544618584511" expanded="true" signature="66:311" ph="{...}" />
+                <marker date="1544618584511" expanded="true" signature="219:305" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -214,7 +146,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/TestGeneratorLib/Utils/FileReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestGeneratorLib/Utils/FileWriter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TestGeneratorLib/Utils/ClassModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestGeneratorLib/Utils/TestClassModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Test App/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestGeneratorLib/TestGenerator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -223,10 +155,11 @@
       <list>
         <option value="$PROJECT_DIR$/TestGeneratorLib/Program.cs" />
         <option value="$PROJECT_DIR$/TestGeneratorLib/Class1.cs" />
-        <option value="$PROJECT_DIR$/TestGeneratorLib/TestGenerator.cs" />
         <option value="$PROJECT_DIR$/TestGeneratorLib/Utils/FileReader.cs" />
-        <option value="$PROJECT_DIR$/TestGeneratorLib/Utils/FileWriter.cs" />
         <option value="$PROJECT_DIR$/TestGeneratorLib/Utils/ClassModel.cs" />
+        <option value="$PROJECT_DIR$/TestGeneratorLib/Utils/FileWriter.cs" />
+        <option value="$PROJECT_DIR$/TestGeneratorLib/Utils/TestClassModel.cs" />
+        <option value="$PROJECT_DIR$/TestGeneratorLib/TestGenerator.cs" />
       </list>
     </option>
   </component>
@@ -255,11 +188,6 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Lab Task 4" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Lab Task 4" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Test App" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -326,12 +254,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544564513858</updated>
-      <workItem from="1544564517454" duration="3593000" />
+      <workItem from="1544564517454" duration="4496000" />
+      <workItem from="1544616842703" duration="3705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3593000" />
+    <option name="totallyTimeSpent" value="8201000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,16 +275,9 @@
     <frame x="-7" y="-7" width="1721" height="1081" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24984948" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2528597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" visible="true" weight="0.32911393" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -363,35 +285,35 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32911393" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TestGeneratorLib/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TestGeneratorLib/Program.cs" />
     <entry file="file://$PROJECT_DIR$/Test App/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <marker date="1543234149702" expanded="true" signature="18:128" ph="{...}" />
             <marker date="1543234149702" expanded="true" signature="47:126" ph="{...}" />
             <marker date="1543234149702" expanded="true" signature="100:120" ph="{...}" />
           </folding>
@@ -404,7 +326,6 @@
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding>
             <marker date="1544615317602" expanded="true" signature="6:60" ph="..." />
-            <marker date="1544615317602" expanded="true" signature="94:633" ph="{...}" />
             <marker date="1544615317602" expanded="true" signature="124:631" ph="{...}" />
             <marker date="1544615317602" expanded="true" signature="191:616" ph="{...}" />
             <marker date="1544615317602" expanded="true" signature="217:415" ph="{...}" />
@@ -414,41 +335,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestGeneratorLib/TestGenerator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
-          <folding>
-            <marker date="1544566359957" expanded="true" signature="6:174" ph="..." />
-            <marker date="1544566359957" expanded="true" signature="202:911" ph="{...}" />
-            <marker date="1544566359957" expanded="true" signature="240:909" ph="{...}" />
-            <marker date="1544566359957" expanded="true" signature="548:798" ph="{...}" />
-            <marker date="1544566359957" expanded="true" signature="852:885" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestGeneratorLib/Utils/FileWriter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="405">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
-            <marker date="1544615488796" expanded="true" signature="6:117" ph="..." />
-            <marker date="1544615488796" expanded="true" signature="151:273" ph="{...}" />
-            <marker date="1544615488796" expanded="true" signature="181:271" ph="{...}" />
-            <marker date="1544615488796" expanded="true" signature="232:265" ph="{...}" />
+            <marker date="1544618584551" expanded="true" signature="6:99" ph="..." />
+            <marker date="1544618584551" expanded="true" signature="163:920" ph="{...}" />
+            <marker date="1544618584551" expanded="true" signature="264:914" ph="{...}" />
+            <marker date="1544618584551" expanded="true" signature="326:414" ph="{...}" />
+            <marker date="1544618584551" expanded="true" signature="467:904" ph="{...}" />
+            <marker date="1544618584551" expanded="true" signature="681:890" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestGeneratorLib/Utils/ClassModel.cs">
+    <entry file="file://$PROJECT_DIR$/TestGeneratorLib/Utils/TestClassModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
           <folding>
-            <marker date="1544615882673" expanded="true" signature="32:305" ph="{...}" />
-            <marker date="1544615882673" expanded="true" signature="62:303" ph="{...}" />
-            <marker date="1544615882673" expanded="true" signature="211:297" ph="{...}" />
+            <marker date="1544618584511" expanded="true" signature="32:313" ph="{...}" />
+            <marker date="1544618584511" expanded="true" signature="66:311" ph="{...}" />
+            <marker date="1544618584511" expanded="true" signature="219:305" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestGeneratorLib/TestGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="101" column="1" lean-forward="true" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
+          <folding>
+            <marker date="1544621290032" expanded="true" signature="6:334" ph="..." />
+            <marker date="1544621290032" expanded="true" signature="362:4361" ph="{...}" />
+            <marker date="1544621290032" expanded="true" signature="400:4359" ph="{...}" />
+            <marker date="1544621290032" expanded="true" signature="816:1180" ph="{...}" />
+            <marker date="1544621290032" expanded="true" signature="1252:1745" ph="{...}" />
+            <marker date="1544621290032" expanded="true" signature="1464:1558" ph="{...}" />
+            <marker date="1544621290032" expanded="true" signature="1599:1735" ph="/* TODO: add two more blocks with processing and writing ... */" />
+            <marker date="1544621290032" expanded="true" signature="1843:2864" ph="{...}" />
+            <marker date="1544621290032" expanded="true" signature="2381:2809" ph="{...}" />
+            <marker date="1544621290032" expanded="true" signature="2717:2795" ph="{...}" />
+            <marker date="1544621290032" expanded="true" signature="2982:3279" ph="{...}" />
+            <marker date="1544621290032" expanded="true" signature="3139:3235" ph="{...}" />
+            <marker date="1544621290032" expanded="true" signature="3363:4335" ph="{...}" />
           </folding>
         </state>
       </provider>

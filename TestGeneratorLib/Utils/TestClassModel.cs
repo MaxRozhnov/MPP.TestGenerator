@@ -1,11 +1,11 @@
 namespace TestGeneratorLib.Utils
 {
-    public class ClassModel
+    public class TestClassModel
     {
         public readonly string Classname;
         public readonly string ClassContent;
 
-        public ClassModel(string name, string content)
+        public TestClassModel(string name, string content)
         {
             Classname = name;
             ClassContent = content;
