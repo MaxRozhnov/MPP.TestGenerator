@@ -66,24 +66,44 @@ namespace TestGeneratorLib
                 {
                     nameSpace = "Global";
                 }
+
+                var testMethodsList = createTestMethods(methods);
+                var testClassDeclaration = createTestClass(declaredClass.Identifier.ValueText + "Test", testMethodsList);
+                testClasses.Add(new TestClassModel(declaredClass.Identifier.ValueText + "Test", createFullClassDeclaration(nameSpace, testClassDeclaration, imports).NormalizeWhitespace().ToFullString()));
             }
             
             return testClasses;
         }
 
-        private List<MemberDeclarationSyntax> generateTestMethods(IEnumerable<MethodDeclarationSyntax> classMethods)
+        private List<MemberDeclarationSyntax> createTestMethods(IEnumerable<MethodDeclarationSyntax> classMethods)
         {
             List<MemberDeclarationSyntax> testMethods = new List<MemberDeclarationSyntax>();
             foreach (var classMethod in classMethods)
             {
                 var methodName = classMethod.Identifier.ToString();
-            }
+                if (testMethods.Count != 0 && testMethods.Any(x =>
+                        (x as MethodDeclarationSyntax)?.Identifier.ToString() == classMethod.Identifier.ToString() + "Test"))
+                {
+                    int i = 1;
+                    while (testMethods.Any(x =>
+                        (x as MethodDeclarationSyntax)?.Identifier.ToString() ==
+                        classMethod.Identifier.ToString() + i + "Test"))
+                    {
+                        i++;
+                    }
 
+                    methodName += i;
+                }
+                
+                testMethods.Add(createTestMethodDeclaration(methodName));
+            }
+            
+           
 
             return testMethods;
         }
 
-        private MethodDeclarationSyntax createMethodDeclaration(string methodName)
+        private MethodDeclarationSyntax createTestMethodDeclaration(string methodName)
         {
             return MethodDeclaration(PredefinedType(Token(SyntaxKind.VoidKeyword)), Identifier(methodName + "Test"))
                 .WithAttributeLists(SingletonList(AttributeList(SingletonSeparatedList( //Method with attribute [TestMethods]
@@ -96,7 +116,27 @@ namespace TestGeneratorLib
                         Argument(LiteralExpression(SyntaxKind.StringLiteralExpression,
                             Literal("test")))))))));
         }
-        
-        
+
+        private MemberDeclarationSyntax createTestClass(string testClassName, List<MemberDeclarationSyntax> testMethods)
+        {
+
+            return ClassDeclaration(testClassName)
+
+                .WithAttributeLists(SingletonList(AttributeList(SingletonSeparatedList(Attribute(IdentifierName("TestClass"))))))
+
+                .WithModifiers(TokenList(Token(SyntaxKind.PublicKeyword)))
+
+                .WithMembers(List(testMethods));
+
+        }
+
+        private CompilationUnitSyntax createFullClassDeclaration(string nameSpace, MemberDeclarationSyntax testClass, List<UsingDirectiveSyntax> imports )
+        {
+            return CompilationUnit()
+                .WithUsings(List(imports))
+                .WithMembers(SingletonList<MemberDeclarationSyntax>(
+                    NamespaceDeclaration(QualifiedName(IdentifierName(nameSpace), IdentifierName("Test")))
+                        .WithMembers(SingletonList(testClass))));
+        }
     }
 }

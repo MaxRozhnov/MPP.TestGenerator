@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fa4e18b-90f6-4d81-a9ab-3fc92dfe4cc2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab Task 4/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab Task 4/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab Task 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab Task 4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestGeneratorLib/TestGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/TestGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGeneratorLib/TestGeneratorLib.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/TestGeneratorLib.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGeneratorLib/Utils/FileWriter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/Utils/FileWriter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGeneratorLib/Utils/TestClassModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/Utils/TestClassModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGeneratorLib/obj/Debug/TestGeneratorLib.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/obj/Debug/TestGeneratorLib.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGeneratorLib/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/packages.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Analyzers.2.6.1.deleteme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Analyzers.2.6.1/analyzers/dotnet/cs/Microsoft.CodeAnalysis.Analyzers.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CodeAnalysis.Analyzers.2.6.1/analyzers/dotnet/cs/Microsoft.CodeAnalysis.CSharp.Analyzers.dll" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,12 +32,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2281" />
+          <entry key="cs" value="2804" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2281" />
+          <entry key="C#" value="2804" />
         </counts>
       </usages-collector>
     </session>
@@ -69,22 +59,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestGeneratorLib/TestGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="101" column="1" lean-forward="true" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
+            <state relative-caret-position="563">
+              <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
               <folding>
-                <marker date="1544621290032" expanded="true" signature="6:334" ph="..." />
-                <marker date="1544621290032" expanded="true" signature="362:4361" ph="{...}" />
-                <marker date="1544621290032" expanded="true" signature="400:4359" ph="{...}" />
-                <marker date="1544621290032" expanded="true" signature="816:1180" ph="{...}" />
-                <marker date="1544621290032" expanded="true" signature="1252:1745" ph="{...}" />
-                <marker date="1544621290032" expanded="true" signature="1464:1558" ph="{...}" />
-                <marker date="1544621290032" expanded="true" signature="1599:1735" ph="/* TODO: add two more blocks with processing and writing ... */" />
-                <marker date="1544621290032" expanded="true" signature="1843:2864" ph="{...}" />
-                <marker date="1544621290032" expanded="true" signature="2381:2809" ph="{...}" />
-                <marker date="1544621290032" expanded="true" signature="2717:2795" ph="{...}" />
-                <marker date="1544621290032" expanded="true" signature="2982:3279" ph="{...}" />
-                <marker date="1544621290032" expanded="true" signature="3139:3235" ph="{...}" />
-                <marker date="1544621290032" expanded="true" signature="3363:4335" ph="{...}" />
+                <marker date="1544624301047" expanded="true" signature="6:334" ph="..." />
+                <marker date="1544624301047" expanded="true" signature="362:6230" ph="{...}" />
+                <marker date="1544624301047" expanded="true" signature="400:6228" ph="{...}" />
+                <marker date="1544624301047" expanded="true" signature="816:1180" ph="{...}" />
+                <marker date="1544624301047" expanded="true" signature="1252:1745" ph="{...}" />
+                <marker date="1544624301047" expanded="true" signature="1464:1558" ph="{...}" />
+                <marker date="1544624301047" expanded="true" signature="1599:1735" ph="/* TODO: add two more blocks with processing and writing ... */" />
+                <marker date="1544624301047" expanded="true" signature="1843:3111" ph="{...}" />
+                <marker date="1544624301047" expanded="true" signature="2381:3056" ph="{...}" />
+                <marker date="1544624301047" expanded="true" signature="2717:2795" ph="{...}" />
+                <marker date="1544624301047" expanded="false" signature="3227:4212" ph="{...}" />
+                <marker date="1544624301047" expanded="true" signature="3384:4144" ph="{...}" />
+                <marker date="1544624301047" expanded="true" signature="3659:4039" ph="{...}" />
+                <marker date="1544624301047" expanded="true" signature="3910:3983" ph="{...}" />
+                <marker date="1544624301047" expanded="false" signature="4300:5272" ph="{...}" />
+                <marker date="1544624301047" expanded="false" signature="5394:5724" ph="{...}" />
+                <marker date="1544624301047" expanded="true" signature="5880:6222" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -255,12 +249,12 @@
       <option name="presentableId" value="Default" />
       <updated>1544564513858</updated>
       <workItem from="1544564517454" duration="4496000" />
-      <workItem from="1544616842703" duration="3705000" />
+      <workItem from="1544616842703" duration="6221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8201000" />
+    <option name="totallyTimeSpent" value="10717000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,7 +269,7 @@
     <frame x="-7" y="-7" width="1721" height="1081" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2528597" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2528597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -364,22 +358,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestGeneratorLib/TestGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="101" column="1" lean-forward="true" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
+        <state relative-caret-position="563">
+          <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
           <folding>
-            <marker date="1544621290032" expanded="true" signature="6:334" ph="..." />
-            <marker date="1544621290032" expanded="true" signature="362:4361" ph="{...}" />
-            <marker date="1544621290032" expanded="true" signature="400:4359" ph="{...}" />
-            <marker date="1544621290032" expanded="true" signature="816:1180" ph="{...}" />
-            <marker date="1544621290032" expanded="true" signature="1252:1745" ph="{...}" />
-            <marker date="1544621290032" expanded="true" signature="1464:1558" ph="{...}" />
-            <marker date="1544621290032" expanded="true" signature="1599:1735" ph="/* TODO: add two more blocks with processing and writing ... */" />
-            <marker date="1544621290032" expanded="true" signature="1843:2864" ph="{...}" />
-            <marker date="1544621290032" expanded="true" signature="2381:2809" ph="{...}" />
-            <marker date="1544621290032" expanded="true" signature="2717:2795" ph="{...}" />
-            <marker date="1544621290032" expanded="true" signature="2982:3279" ph="{...}" />
-            <marker date="1544621290032" expanded="true" signature="3139:3235" ph="{...}" />
-            <marker date="1544621290032" expanded="true" signature="3363:4335" ph="{...}" />
+            <marker date="1544624301047" expanded="true" signature="6:334" ph="..." />
+            <marker date="1544624301047" expanded="true" signature="362:6230" ph="{...}" />
+            <marker date="1544624301047" expanded="true" signature="400:6228" ph="{...}" />
+            <marker date="1544624301047" expanded="true" signature="816:1180" ph="{...}" />
+            <marker date="1544624301047" expanded="true" signature="1252:1745" ph="{...}" />
+            <marker date="1544624301047" expanded="true" signature="1464:1558" ph="{...}" />
+            <marker date="1544624301047" expanded="true" signature="1599:1735" ph="/* TODO: add two more blocks with processing and writing ... */" />
+            <marker date="1544624301047" expanded="true" signature="1843:3111" ph="{...}" />
+            <marker date="1544624301047" expanded="true" signature="2381:3056" ph="{...}" />
+            <marker date="1544624301047" expanded="true" signature="2717:2795" ph="{...}" />
+            <marker date="1544624301047" expanded="false" signature="3227:4212" ph="{...}" />
+            <marker date="1544624301047" expanded="true" signature="3384:4144" ph="{...}" />
+            <marker date="1544624301047" expanded="true" signature="3659:4039" ph="{...}" />
+            <marker date="1544624301047" expanded="true" signature="3910:3983" ph="{...}" />
+            <marker date="1544624301047" expanded="false" signature="4300:5272" ph="{...}" />
+            <marker date="1544624301047" expanded="false" signature="5394:5724" ph="{...}" />
+            <marker date="1544624301047" expanded="true" signature="5880:6222" ph="{...}" />
           </folding>
         </state>
       </provider>
