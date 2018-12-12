@@ -7,16 +7,23 @@ namespace TestGeneratorLib.Utils
 {
     public class FileWriter
     {
-        public async Task WriteAsync(List<TestClassModel> classModels, string outputDirectory)
+        private string _outputDirectory;
+        public FileWriter(string outputDirectory)
         {
             if (!Directory.Exists(outputDirectory))
             {
                 Directory.CreateDirectory(outputDirectory);
             }
 
+            _outputDirectory = outputDirectory;
+        }
+        public async Task WriteAsync(List<TestClassModel> classModels)
+        {
+            
+
             foreach (var classModel in classModels)
             {
-                string outputPath = Path.Combine(outputDirectory, classModel.Classname + ".cs");
+                string outputPath = Path.Combine(_outputDirectory, classModel.Classname + ".cs");
                 using (var fileStream = new FileStream(outputPath, FileMode.Create, FileAccess.Write))
                 {
                     byte[] dataBuffer = Encoding.ASCII.GetBytes(classModel.ClassContent);

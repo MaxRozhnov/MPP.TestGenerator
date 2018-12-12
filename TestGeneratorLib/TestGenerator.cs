@@ -21,18 +21,18 @@ namespace TestGeneratorLib
         private FileReader _fileReader;
         private FileWriter _fileWriter;
         
-        public TestGenerator(int maxFilesLoadedSimultaneously, int maxFilesGeneratedSimultaneously, int maxFilesWrittenSimultaneously)
+        public TestGenerator(int maxFilesLoadedSimultaneously, int maxFilesGeneratedSimultaneously, int maxFilesWrittenSimultaneously, string outputDirectory)
         {
             _maxFilesLoadedSimultaneously = maxFilesLoadedSimultaneously;
             _maxFilesGeneratedSimultaneously = maxFilesGeneratedSimultaneously;
             _maxFilesWrittenSimultaneously = maxFilesWrittenSimultaneously;
             
             _fileReader = new FileReader();
-            _fileWriter = new FileWriter();
+            _fileWriter = new FileWriter(outputDirectory);
             
         }
         
-        public Task<List<string>> Generate(List<string> Files)
+        public Task Generate(List<string> classFiles)
         {
             var readBlock = new TransformBlock<string, string>(
                 new Func<string, Task<string>>(_fileReader.ReadAsync),
@@ -42,12 +42,38 @@ namespace TestGeneratorLib
                 }
             );
             
-            //TODO: add two more blocks with processing and writing
+            var testClassGenerationBlock = new TransformBlock<string, List<TestClassModel>>(
+                new Func<string, Task<List<TestClassModel>>>(GenerateTestClassFilesAsync),
+                new ExecutionDataflowBlockOptions
+                {
+                    MaxDegreeOfParallelism = _maxFilesGeneratedSimultaneously
+                }
+             );
             
-            //TODO: should probably add a return statement as well.
+            var writeBLock = new ActionBlock<List<TestClassModel>>(
+                new Action<List<TestClassModel>>((x) => _fileWriter.WriteAsync(x).Wait()),
+                new ExecutionDataflowBlockOptions
+                {
+                    MaxDegreeOfParallelism = _maxFilesWrittenSimultaneously
+                }
+            );
+            
+            var options = new DataflowLinkOptions { PropagateCompletion = true };
+            
+            readBlock.LinkTo(testClassGenerationBlock, options);
+            testClassGenerationBlock.LinkTo(writeBLock, options);
+
+            foreach (var classFile in classFiles)
+            {
+                readBlock.Post(classFile);
+            }
+            
+            readBlock.Complete();
+            
+            return writeBLock.Completion;
         }
         
-        private async Task<List<TestClassModel>> GenerateTestClassFiles(string fileText)
+        private async Task<List<TestClassModel>> GenerateTestClassFilesAsync(string fileText)
         {
             var testClasses = new List<TestClassModel>();
             
