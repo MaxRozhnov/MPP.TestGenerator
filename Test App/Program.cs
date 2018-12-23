@@ -12,7 +12,7 @@ namespace Test_App
             
             testGenerator.Generate(new List<string>()
             {
-                Path.Combine(@"C:\Users\Max\RiderProjects\Lab Task 4\TestGeneratorLib\Utils\FileReader.cs"),              
+                Path.Combine(@"C:\Users\Max\RiderProjects\Lab Task 4\TestGeneratorLib\Utils\Class1.cs"),              
             }).Wait();
         }
     }

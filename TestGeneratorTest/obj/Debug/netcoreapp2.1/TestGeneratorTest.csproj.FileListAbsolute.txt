@@ -1,0 +1,17 @@
+C:\Users\Max\RiderProjects\Lab Task 4\TestGeneratorTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Max\RiderProjects\Lab Task 4\TestGeneratorTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Max\RiderProjects\Lab Task 4\TestGeneratorTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Max\RiderProjects\Lab Task 4\TestGeneratorTest\bin\Debug\netcoreapp2.1\TestGeneratorTest.deps.json
+C:\Users\Max\RiderProjects\Lab Task 4\TestGeneratorTest\bin\Debug\netcoreapp2.1\TestGeneratorTest.runtimeconfig.json
+C:\Users\Max\RiderProjects\Lab Task 4\TestGeneratorTest\bin\Debug\netcoreapp2.1\TestGeneratorTest.runtimeconfig.dev.json
+C:\Users\Max\RiderProjects\Lab Task 4\TestGeneratorTest\bin\Debug\netcoreapp2.1\TestGeneratorTest.dll
+C:\Users\Max\RiderProjects\Lab Task 4\TestGeneratorTest\bin\Debug\netcoreapp2.1\TestGeneratorLib.dll
+C:\Users\Max\RiderProjects\Lab Task 4\TestGeneratorTest\bin\Debug\netcoreapp2.1\TestGeneratorLib.pdb
+C:\Users\Max\RiderProjects\Lab Task 4\TestGeneratorTest\obj\Debug\netcoreapp2.1\TestGeneratorTest.csprojAssemblyReference.cache
+C:\Users\Max\RiderProjects\Lab Task 4\TestGeneratorTest\obj\Debug\netcoreapp2.1\TestGeneratorTest.csproj.CoreCompileInputs.cache
+C:\Users\Max\RiderProjects\Lab Task 4\TestGeneratorTest\obj\Debug\netcoreapp2.1\TestGeneratorTest.AssemblyInfoInputs.cache
+C:\Users\Max\RiderProjects\Lab Task 4\TestGeneratorTest\obj\Debug\netcoreapp2.1\TestGeneratorTest.AssemblyInfo.cs
+C:\Users\Max\RiderProjects\Lab Task 4\TestGeneratorTest\obj\Debug\netcoreapp2.1\TestGeneratorTest.csproj.CopyComplete
+C:\Users\Max\RiderProjects\Lab Task 4\TestGeneratorTest\bin\Debug\netcoreapp2.1\TestGeneratorTest.pdb
+C:\Users\Max\RiderProjects\Lab Task 4\TestGeneratorTest\obj\Debug\netcoreapp2.1\TestGeneratorTest.dll
+C:\Users\Max\RiderProjects\Lab Task 4\TestGeneratorTest\obj\Debug\netcoreapp2.1\TestGeneratorTest.pdb

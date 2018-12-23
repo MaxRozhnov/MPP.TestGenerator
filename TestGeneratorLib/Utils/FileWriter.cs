@@ -26,7 +26,7 @@ namespace TestGeneratorLib.Utils
                 string outputPath = Path.Combine(_outputDirectory, classModel.Classname + ".cs");
                 using (var fileStream = new FileStream(outputPath, FileMode.Create, FileAccess.Write))
                 {
-                    byte[] dataBuffer = Encoding.ASCII.GetBytes(classModel.ClassContent);
+                    byte[] dataBuffer = Encoding.UTF8.GetBytes(classModel.ClassContent);
                     await fileStream.WriteAsync(dataBuffer, 0, dataBuffer.Length);
                 }
             }

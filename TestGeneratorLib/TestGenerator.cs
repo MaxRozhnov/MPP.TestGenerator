@@ -43,7 +43,7 @@ namespace TestGeneratorLib
             );
             
             var testClassGenerationBlock = new TransformBlock<string, List<TestClassModel>>(
-                new Func<string, Task<List<TestClassModel>>>(GenerateTestClassFilesAsync),
+                new Func<string, List<TestClassModel>>(GenerateTestClassFilesAsync),
                 new ExecutionDataflowBlockOptions
                 {
                     MaxDegreeOfParallelism = _maxFilesGeneratedSimultaneously
@@ -73,7 +73,7 @@ namespace TestGeneratorLib
             return writeBLock.Completion;
         }
         
-        private async Task<List<TestClassModel>> GenerateTestClassFilesAsync(string fileText)
+        private List<TestClassModel> GenerateTestClassFilesAsync(string fileText)
         {
             var testClasses = new List<TestClassModel>();
             
@@ -87,11 +87,7 @@ namespace TestGeneratorLib
                 var methods = declaredClass.DescendantNodes().OfType<MethodDeclarationSyntax>()
                     .Where(x => x.Modifiers.Any(y => y.ValueText == "public"));
 
-                string nameSpace = (declaredClass.Parent as NamespaceDeclarationSyntax)?.Name.ToString();
-                if (nameSpace == null)
-                {
-                    nameSpace = "Global";
-                }
+                string nameSpace = (declaredClass.Parent as NamespaceDeclarationSyntax)?.Name?.ToString() ?? "Global";
 
                 var testMethodsList = createTestMethods(methods);
                 var testClassDeclaration = createTestClass(declaredClass.Identifier.ValueText + "Test", testMethodsList);
